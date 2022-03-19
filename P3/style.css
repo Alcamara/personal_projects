@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+#cal-frame {
+  border: 5px solid black;
+  height: 600px;
+  width:450px;
+  border-radius: 10px;
+}
+
+/*calbody-container*/
+
+.calbody-container {
+  padding: 30px 20px;
+}
+
+/*Cal-Display*/
+
+#cal-display {
+  height:150px;
+  width: 100%;
+  padding: 5px;
+  background-color: lightGreen;
+  border-radius: 1px;
+}
+
+/*cal-keys-container*/
+.cal-keys-container{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 3px;
+
+}
+
+#number-keys-container{
+  flex: 0 1 80%;
+}
+
+.number-keys {
+  height: 75px;
+  width: 80px;
+  margin-right: 1px;
+  margin-bottom: 5px;
+
+}
+
+#operator-keys{
+  flex: 0 1 10%;
+}
+
+.ops-keys {
+  height: 65px;
+  width: 70px;
+
+}
